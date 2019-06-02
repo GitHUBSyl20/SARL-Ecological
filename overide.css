@@ -1,0 +1,744 @@
+body {
+  background-color: white; 
+}
+
+main {
+  max-width: auto;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.navbar, .navbar-expand-lg {
+  background-color: rgba(209, 205, 205, 0.876);
+  text-align: center;
+}
+
+.navbar.center .navbar-inner {
+  text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+  display:inline-block;
+  float: none;
+}
+
+.nav-item{
+  margin: 1rem 1rem;
+  font-size: 2rem;  
+}
+
+.icon-bar{
+  background-color:black;
+}
+
+.card {
+  margin: 2rem 2rem;
+  border: none;  
+}
+
+.mainTitle {
+  font-family: arial; 
+  text-align: center;
+  color: #007AC1;
+  font-size: 4rem;
+}
+
+p {
+  font-family: arial; 
+  text-align: center;
+}
+
+h3 {
+  font-family: arial; 
+  text-align: center;
+}
+
+section {
+  margin: 1rem auto;
+}
+
+a{
+  color: #007AC1;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-width: 0.1rem;
+  background-color: #A5D70A;
+}
+
+hr .thin{
+  border: 5rem;
+}
+
+img{ 
+    max-width: 100%;
+    height: auto;
+}
+
+
+                                                          /*
+                                                          
+                                                          LES PARALAX
+                                                          
+                                              
+                                                          */ 
+.parallax {
+    margin-top: 0px;    
+  /* The image used */
+  background-image: URL("assets/images/imagefond1.jpg");
+
+  /* Set a specific height */
+  min-height: 800px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax01 {
+  margin-top: 0px;    
+/* The image used */
+background-image: URL("assets/images/imagefond1.jpg");
+
+/* Set a specific height */
+min-height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parallax2 {
+      margin-top: 0px;
+
+      background-image: URL("assets/images/imagefond2.jpg");
+
+
+      min-height: 200px;
+
+  /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.parallax3 {
+  margin-top: 0px;
+
+  background-image: URL("assets/images/imagefond3.jpg");
+
+
+  min-height: 200px;
+
+/* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+                                                            /*
+
+
+                                                            NAVBAR
+
+
+
+                                                            */
+.navbar{
+    position: fixed; /* Set the navbar to fixed position */ 
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    z-index: 2;
+}
+
+                                                          
+                                                            /*
+                                                            
+                                                            
+                                                            
+                                                            ACCUEIL
+                                                            
+                                                            
+                                                            
+                                                            */
+.parallax img{
+    display: block;
+    padding-top: 16rem;   
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.parallax p{
+    padding-top: 1rem;
+    font-weight: bold;  
+}
+
+.bienvenu {
+  padding-top: 3rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  color:  rgb(255, 255, 255);
+  font-size: 2.5rem;
+ text-shadow: 2px 2px 5px rgb(100, 98, 98);
+}
+
+.bienvenu h3 {
+  font-size: 2rem;
+  padding-bottom: 3rem;
+}
+
+.cards p{
+    font-size: 2.2rem;
+    color:black;
+  
+}
+
+.cards p:hover{
+    text-decoration: none;
+}
+
+/*
+
+
+                                                                        SOLUTIONS
+
+
+
+                                                                        */
+.card img {
+  margin: auto;
+  max-width:55%;
+  height: auto;
+  border-radius: 2px;
+  box-shadow: 0px 0px 20px rgb(144, 146, 144);
+  transition: transform 0.5s;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+}
+
+.col-xs-4{
+  width: 30%; 
+}
+/*
+.container{
+  display: flex !important;
+  align-content: flex-start !important; 
+  justify-content: flex-start !important; 
+}*/
+
+/*
+
+                                                      /*
+
+
+
+                                                      Les engagements
+
+
+
+
+                                                      */
+.row {
+  text-align: justify;
+  padding: 0.5rem 3rem; 
+}
+
+.engagements{
+  font-size: 2.2rem; 
+}
+
+/* .verticalAlignement li{
+  margin-bottom: 20px;   
+} */
+
+.list-group{
+  margin:0 2rem; 
+}
+/*
+
+
+
+                                                                    COMPETENCES
+
+
+
+                                                                    */
+.competences {
+  margin: 2rem auto;
+  margin-bottom: 1rem; 
+}
+
+#toiture, #traitement, #extension {
+  padding-left: 10rem; 
+}
+
+.competences img{
+    border-radius: 2px;
+    box-shadow: 0px 0px 20px rgb(144, 146, 144);
+}
+
+.titleCompetence {
+  font-size: 2.8rem;
+}
+
+.textPrincipal {
+  text-align: center;
+  font-size: 2.2rem;
+  padding: 0rem 2.9rem;
+}
+
+.texteDetails{
+    text-align:justify;
+    font-size: 2.2rem;  
+    padding: 1rem 2rem;
+}
+
+.textCalcaireGauche{
+    padding: 3rem 2rem;
+}
+
+.deperditionsImage{
+   padding-left: 6rem;
+}
+
+.coteMaison{
+   padding-top: 8rem;
+   padding-right: 8rem;
+}
+                                                                /*
+                                                                
+                                                                
+                                                                carrousel
+                                                         
+                                                                
+                                                                
+                                                                */
+.carousel-inner{
+    margin: 3rem auto; 
+    width:200rem;
+    height:50rem; 
+}
+
+.video-fluid{
+    width: 100%;
+    height: 50rem;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
+.glyphicon-chevron-left, .glyphicon-chevron-right{
+
+  font-size: 10rem; 
+}
+/* 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon::after
+{ 
+  content: '>';
+  font-size: 100px;
+  color: #A5D70A;
+}
+
+.carousel-control-prev-icon::after {
+  content: '<';
+  font-size: 100px;
+  color: #A5D70A;
+} */
+
+                                                                        /* 
+                                                                
+                                                                
+                                                                QUI SOMMES NOUS ? 
+                                                                
+                                                                
+                                                                */
+#implantation{
+    padding: 0 11rem; 
+    font-size: 2.2rem;
+    font-weight:bold; 
+}
+
+#missionGra{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.texteDetails2{
+    text-align:justify;
+    padding: 1rem 3.5rem;
+    font-size: 2.2rem;    
+}
+
+.missionDetails{
+    margin-left: 12rem; 
+    text-align: left; 
+    font-size: 2.2rem;
+}
+
+.imageQui{
+   width: 70%; 
+   height: auto; 
+}
+
+.texteQui{
+    padding-top: 4rem; 
+}
+
+
+ /*                                                                    
+                                                                    ADRESSE ET MAP
+                                                                    
+                                                                    
+                                                                    */
+.smallhr{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 4rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  border-width: 0.08rem;
+  background-color: #A5D70A;
+}
+
+section .adresse{
+  margin-bottom: 1rem;
+  margin-top: 0rem;  
+}
+
+.contientLogoLocal {
+  padding-top: 5rem; 
+  width: 90%;
+  height: auto;
+}
+
+#map {
+  margin: 0rem auto; 
+}
+
+.coordonnees{
+    margin-top: 6rem; 
+    font-size: 2.2rem;
+    margin-bottom:0rem;   
+}
+
+.fas{
+  color: #A5D70A;
+  opacity: 0.7;
+  margin-right: 0.3rem;  
+}
+
+.logoSARL{
+    margin-left: 2rem;
+    width: 40%; 
+}
+
+.localSarl img{
+  width: 50%; 
+  height:auto; 
+}
+
+
+/* 
+
+
+                                                                        formulaire 
+
+
+
+                                                                        */
+.demande{
+  color: white; 
+  text-shadow: 2px 2px 5px rgb(100, 98, 98);
+}
+
+.parallax01 .mainTitle{
+  padding-top: 3rem;
+  padding-bottom: 0rem;  
+}
+
+form {
+  margin: 2rem 4rem;
+  padding: 4rem 10rem; 
+}
+
+.btn {
+  display: block !important;
+  margin: auto;
+  color: white;
+  background-color: #007AC1;
+}
+
+#textArea{
+  height: 10rem; 
+}
+
+.fab{
+  display: block;
+  text-align: center;
+}
+
+.g-recaptcha{
+ transform:scale(0.9);
+  -webkit-transform:scale(0.9);
+  transform-origin:0 0;
+  -webkit-transform-origin:0 0;
+  margin: 0 auto;
+  width: auto; 
+}
+
+.facebookCall{
+  color: black;
+  font-size: 2rem; 
+}
+
+/* 
+.confirmationBox{
+    display: none; 
+    background-color: #A5D70A;
+    color: #000000;
+    border: 1px solid black;
+    position: fixed;
+    width: 500px;
+    height: 80px;
+    left: 40%;
+    top: 40%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.4rem;
+    border-radius:4px;  
+ }
+
+.visible{
+ display: block;
+ }
+ */
+
+                                    /*  MEDIA QUERIES */
+.facebookCall{
+  font: 5rem; 
+  color: black; 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 960px){
+
+.logoSARL{ 
+  margin-left: 0rem;
+  width: 70%; 
+}
+
+.carousel-inner{
+  margin: 0 auto; 
+  width:45rem;
+  height:40rem;
+}
+
+}
+
+
+
+@media only screen and (max-width: 860px) {
+
+body{
+    width: 840px;
+}
+  
+.carousel-inner{
+  margin: 0 auto; 
+  width:55rem;
+  height:40rem;
+}
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+body{
+  width: 750px;
+}
+
+.col-xs-4{
+  width: 30%; 
+}
+
+            /*TAille des textes*/
+p{
+    font-size: 1.2rem;
+    margin: 0.1rem 0.2rem;  
+  }
+
+
+hr {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0.3rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    border-width: 0.1rem;
+    background-color: #A5D70A;
+  }
+
+.bienvenu {
+    padding-top: 0.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color:  rgb(255, 255, 255);
+    font-size: 1rem;
+    text-shadow: 2px 2px 5px rgb(131, 109, 109);
+  }
+
+.nav-item{
+    margin: 1rem 1rem;
+    font-size: 2.2rem;  
+  }
+
+.bienvenu p {
+  font-size: 2.2rem;
+}
+
+#toiture, #traitement, #extension {
+    padding-left: 0rem; 
+  }
+  
+.card {
+    margin: 0;
+    border: none;  
+  }
+
+.card img {
+    margin: auto;
+    max-width:70%;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 0px 0px 20px rgb(144, 146, 144);
+    transition: transform 0.5s;
+}
+
+.textCalcaireGauche{
+    text-align:justify;
+    font-size: 1.5rem;  
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem; 
+}
+
+.mainTitle{
+    font-size: 3rem;
+}
+
+.engagements{
+    margin-left: 0rem; 
+}
+
+.row .competences p{
+    margin:0 auto;
+    padding-top: 0.2rem;
+    color: black;
+    font-size: 1rem;
+}
+
+.contientCards{
+  margin-top: 1rem;  
+} 
+
+#implantation{
+    padding: 0 0rem; 
+    font-size: 2.2rem;
+    font-weight:bold; 
+}
+
+.missionDetails{
+  margin-left: 0rem;
+  text-align: center; 
+  font-size: 2.2rem;
+}
+
+.textPrincipal {
+  text-align: center;
+  font-size: 2.2rem;
+  padding: 0rem 0em;
+}
+
+.texteDetails{
+  text-align:justify;
+  font-size: 2.2rem;  
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  padding-left:0; 
+  padding-right:0; 
+}
+
+.texteDetails2{
+  text-align:justify;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  padding-left:0; 
+  padding-right:0; 
+  font-size: 2.2rem;    
+}
+
+.coordonnees{
+  margin-top: 0rem; 
+  font-size: 2.2rem;
+  margin-bottom:2rem;      
+}
+
+.logoSARL{
+  margin-left: 0rem;
+  width: 50%; 
+}
+
+
+.carousel-inner{
+  margin: -1.5rem auto; 
+  width:43rem;
+  height: auto; 
+}
+
+main{
+    margin-left: 2rem;  
+  }
+}   
+
+.map-responsive {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  
+.map-responsive iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+
+  /*   HIDDEN FILE FOR CAPTCHA   */
+
+input[type="text"]#website { display: none; }

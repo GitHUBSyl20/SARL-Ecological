@@ -1,0 +1,28 @@
+.navbar{
+    background-color: black; 
+}
+
+.sexy-row{
+    /* si espace plus grand ca peut dépasser des 5rem */
+    min-height: 5rem; 
+    background-color: crimson; 
+    color: white;
+}
+
+/* toute les classes qui commencent par col avec ^= 
+distingue les element de la colone et ceux de la ligne
+*/
+
+/*niveau 2*/
+
+.sexy-row [class^=col]{
+    background-color: cornflowerblue; 
+}
+
+/*niveau 1 
+a mettre après pour surcharger le niveau 2
+le chevron permet de cibler uniquement les enfants directs */
+
+.sexy-row > [class^=col]{
+    background-color: chocolate; 
+}
