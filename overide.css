@@ -1,5 +1,10 @@
+html, body{
+  overflow-x:hidden;
+}
+
 body {
-  background-color: white; 
+  background-color: white;
+  width: auto; 
 }
 
 main {
@@ -7,14 +12,24 @@ main {
   margin: 0 auto;
   background-color: white;
 }
+.container-fluid-fluid{
+  margin: 0 auto; 
+  
+}
 
-.navbar, .navbar-expand-lg {
+.navbar.center, .navbar-expand-lg {
   background-color: rgba(209, 205, 205, 0.876);
-  text-align: center;
+  text-align: left;
+  margin-bottom: 0 !important; 
+}
+
+.navbar-toggle{
+  padding: 0 0 !important;
+  margin-bottom: 0;
 }
 
 .navbar.center .navbar-inner {
-  text-align: center;
+  text-align: left;
 }
 
 .navbar.center .navbar-inner .nav {
@@ -23,7 +38,7 @@ main {
 }
 
 .nav-item{
-  margin: 1rem 1rem;
+  margin: 0.3rem 0rem;
   font-size: 2rem;  
 }
 
@@ -198,7 +213,7 @@ background-size: cover;
 }
 
 .cards p{
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     color:black;
   
 }
@@ -231,12 +246,6 @@ background-size: cover;
 .col-xs-4{
   width: 30%; 
 }
-/*
-.container{
-  display: flex !important;
-  align-content: flex-start !important; 
-  justify-content: flex-start !important; 
-}*/
 
 /*
 
@@ -256,16 +265,23 @@ background-size: cover;
 }
 
 .engagements{
-  font-size: 2.2rem; 
+  font-size: 2.0rem;
+  text-align: center
 }
-
-/* .verticalAlignement li{
-  margin-bottom: 20px;   
-} */
 
 .list-group{
   margin:0 2rem; 
 }
+/*FOR IE !!!*/
+
+ul li {
+    float: left;
+}
+
+.hiddenOnDesk{
+  display:none;
+}
+
 /*
 
 
@@ -281,7 +297,9 @@ background-size: cover;
 }
 
 #toiture, #traitement, #extension {
-  padding-left: 10rem; 
+  padding-left: 10rem;
+  display: flex;
+  flex-direction: row-reverse; 
 }
 
 .competences img{
@@ -295,13 +313,13 @@ background-size: cover;
 
 .textPrincipal {
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 2.0rem;
   padding: 0rem 2.9rem;
 }
 
 .texteDetails{
     text-align:justify;
-    font-size: 2.2rem;  
+    font-size: 2.0rem;  
     padding: 1rem 2rem;
 }
 
@@ -346,28 +364,6 @@ background-size: cover;
 
   font-size: 10rem; 
 }
-/* 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-  background-image: none;
-}
-
-.carousel-control-next-icon::after
-{ 
-  content: '>';
-  font-size: 100px;
-  color: #A5D70A;
-}
-
-.carousel-control-prev-icon::after {
-  content: '<';
-  font-size: 100px;
-  color: #A5D70A;
-} */
 
                                                                         /* 
                                                                 
@@ -378,25 +374,25 @@ background-size: cover;
                                                                 */
 #implantation{
     padding: 0 11rem; 
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     font-weight:bold; 
 }
 
 #missionGra{
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     font-weight: bold;
 }
 
 .texteDetails2{
     text-align:justify;
     padding: 1rem 3.5rem;
-    font-size: 2.2rem;    
+    font-size: 2.0rem;    
 }
 
 .missionDetails{
     margin-left: 12rem; 
     text-align: left; 
-    font-size: 2.2rem;
+    font-size: 2.0rem;
 }
 
 .imageQui{
@@ -407,6 +403,11 @@ background-size: cover;
 .texteQui{
     padding-top: 4rem; 
 }
+
+
+
+
+
 
 
  /*                                                                    
@@ -441,7 +442,7 @@ section .adresse{
 
 .coordonnees{
     margin-top: 6rem; 
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     margin-bottom:0rem;   
 }
 
@@ -537,12 +538,13 @@ form {
  }
  */
 
-                                    /*  MEDIA QUERIES */
+
 .facebookCall{
   font: 5rem; 
   color: black; 
 }
 
+                                    /*  MEDIA QUERIES */
 @media only screen and (min-width: 768px) and (max-width: 960px){
 
 .logoSARL{ 
@@ -565,21 +567,60 @@ form {
 body{
     width: 840px;
 }
-  
+
+
 .carousel-inner{
   margin: 0 auto; 
   width:55rem;
   height:40rem;
 }
-
-
 }
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
 
-body{
-  width: 750px;
+html, body {
+    width: 100%;  
+}
+
+.parallax{
+  min-height: 200px;
+}
+.parallax img{
+  padding-top: 5rem; 
+}
+
+.hiddenOnDesk{
+  display:inline;
+}
+
+.hiddenOnDesk p{
+  display:inline;
+  margin: 0 8rem;
+  font-size: 1.5rem;
+  font-weight: bold; 
+  color: black; 
+}
+
+img{
+  margin-bottom:0; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.coordonnees br{
+  display: none; 
+}
+
+.cards p{
+  font-size: 1.4rem;
+  text-align: center; 
+}
+
+.card img{
+  width: 100%;
 }
 
 .col-xs-4{
@@ -587,19 +628,21 @@ body{
 }
 
             /*TAille des textes*/
-p{
-    font-size: 1.2rem;
+/* p{
+    font-size: 5.0rem;
     margin: 0.1rem 0.2rem;  
+  } */
+.engagements{
+    font-size: 1.7rem; 
   }
 
-
-hr {
+hr{
     display: block;
     margin-top: 0em;
     margin-bottom: 0.3rem;
     margin-left: 0rem;
     margin-right: 0rem;
-    border-width: 0.1rem;
+    border-width: 2rem;
     background-color: #A5D70A;
   }
 
@@ -608,21 +651,21 @@ hr {
     padding-left: 2rem;
     padding-right: 2rem;
     color:  rgb(255, 255, 255);
-    font-size: 1rem;
     text-shadow: 2px 2px 5px rgb(131, 109, 109);
+  }
+
+.bienvenu p {
+    font-size: 1.5rem;
   }
 
 .nav-item{
     margin: 1rem 1rem;
-    font-size: 2.2rem;  
+    font-size: 1.5rem;  
   }
 
-.bienvenu p {
-  font-size: 2.2rem;
-}
-
 #toiture, #traitement, #extension {
-    padding-left: 0rem; 
+    padding: 0rem 1.3rem;
+
   }
   
 .card {
@@ -639,53 +682,63 @@ hr {
     transition: transform 0.5s;
 }
 
+.deperditionsImage img{
+  width: 100%;
+  height: auto; 
+} 
+
+.imageQui img{
+  width: 100%; 
+  height: auto; 
+}
+
 .textCalcaireGauche{
     text-align:justify;
-    font-size: 1.5rem;  
+    font-size: 1.1rem;  
     padding-top: 0.4rem;
     padding-bottom: 0.4rem; 
 }
 
 .mainTitle{
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 .engagements{
-    margin-left: 0rem; 
+    margin-left: 0rem;
 }
 
 .row .competences p{
     margin:0 auto;
     padding-top: 0.2rem;
     color: black;
-    font-size: 1rem;
 }
 
 .contientCards{
-  margin-top: 1rem;  
+  margin-top: 1rem;
+  margin-bottom: -5rem; 
 } 
 
 #implantation{
     padding: 0 0rem; 
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     font-weight:bold; 
 }
 
 .missionDetails{
   margin-left: 0rem;
   text-align: center; 
-  font-size: 2.2rem;
+  font-size: 2.0rem;
 }
 
 .textPrincipal {
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 2.0rem;
   padding: 0rem 0em;
 }
 
 .texteDetails{
   text-align:justify;
-  font-size: 2.2rem;  
+  font-size: 2.0rem;  
   padding-top: 1rem;
   padding-bottom: 0rem;
   padding-left:0; 
@@ -698,17 +751,18 @@ hr {
   padding-bottom: 0rem;
   padding-left:0; 
   padding-right:0; 
-  font-size: 2.2rem;    
+  font-size: 2.0rem;    
 }
 
 .coordonnees{
-  margin-top: 0rem; 
-  font-size: 2.2rem;
+  margin-top: -5rem; 
+  font-size: 2.0rem;
   margin-bottom:2rem;      
-}
+}  
 
 .logoSARL{
-  margin-left: 0rem;
+ margin-left: auto; 
+ margin-right: auto;
   width: 50%; 
 }
 
@@ -716,13 +770,11 @@ hr {
 .carousel-inner{
   margin: -1.5rem auto; 
   width:43rem;
-  height: auto; 
+  height: 40rem; 
 }
+} 
 
-main{
-    margin-left: 2rem;  
-  }
-}   
+/*FIN DU RESPONSIVE %EDIA QERIES*/
 
 .map-responsive {
   overflow:hidden;
@@ -741,4 +793,7 @@ main{
 
   /*   HIDDEN FILE FOR CAPTCHA   */
 
-input[type="text"]#website { display: none; }
+  
+  input:valid {
+    border: 1px solid black;
+  }

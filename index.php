@@ -26,13 +26,13 @@
 
 <body>
     <main>
-<nav class="navbar navbar-expand-lg navbar center">
+<nav class="navbar navbar-expand-lg navbar">
     <div class="container-fluid-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
+          <span class="icon-bar"></span>                      
         </button>
       </div>
       <div class="collapse navbar-collapse"  id="myNavbar">
@@ -57,13 +57,26 @@
           </li>
   
           <li class="nav-item">
-              <a class="js-scrollTo" href="#ancreDevis" class="nav-link">Demande de
-                  Devis</a>
+              <a class="js-scrollTo" href="#ancreDevis" class="nav-link">Demande de Devis</a>
           </li>
-        </ul>
-        
+        </ul>   
       </div>
     </div>
+
+    <div class="hiddenOnDesk">
+    <P>Ecological</P>
+
+    <a href="https&#58;//www.facebook.com/Ecological-387216698516848/" target="_blank">
+
+        <svg width="50" height="50" viewBox="0 0 1792 1792" xmlns="http&#58;//www.w3.org/2000/svg"
+            fill="currentColor">
+            <path
+                d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z">
+            </path>
+        </svg>
+    </a>
+
+</div>
   </nav>
     
             <div class="parallax">
@@ -254,12 +267,8 @@
                         <hr>
                                        
                     <div class="row competences" id="toiture">
-                       
-                        <div class="d-none d-lg-block col-lg-4">
-                            <img src="assets/images/Toiture.jpg" alt="toiture" height="300" width="300"> 
-                        </div>
 
-                        <div class="col-xs-12 col-lg-8 pr-sm-1 pr-md-1">
+                        <div class="col-xs-12 col-lg-8 pr-sm-1 pr-md-3">
                             <p class="titleCompetence">Toiture</p> 
                             <hr>
                        
@@ -270,6 +279,13 @@
                                 ext&eacute;rieure.
                             </p>
                         </div>
+
+
+                        <div class="d-xs-block col-lg-4">
+                            <img src="assets/images/Toiture.jpg" alt="toiture" height="300" width="300"> 
+                        </div>
+
+                        
                     </div>
                     </div>
                         </div>
@@ -317,7 +333,7 @@
                                 </p>
                             </div>
                            
-                            <div class="d-none d-lg-block col-lg-4">
+                            <div class="d-xs-block d-lg-block col-lg-4">
                                     <img src="assets/images/chauffage.jpg" alt="chauffage" height="300" width="300">
                             </div> 
                             
@@ -348,9 +364,7 @@
                                                             <!--TRAITEMENT DE L'EAU-->
 
                         <div class="row competences" id="traitement">
-                                <div class="d-none d-lg-block col-lg-4">
-                                    <img src="assets/images/traitementeau.jpg" height="300" width="300" alt="traitementEau">
-                                </div>
+                               
                                 <div class="col-xs-12 col-lg-8">
                                     <p class="titleCompetence">Traitement de l&apos;eau</p> 
                                     <hr>
@@ -360,6 +374,10 @@
                                     </p>
                                    
                                 </div>
+                                
+                                <div class="d-xs-block d-lg-block col-lg-4">
+                                        <img src="assets/images/traitementeau.jpg" height="300" width="300" alt="traitementEau">
+                                    </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-12 col-md-6">
@@ -415,7 +433,7 @@
                                         </p>
                                         
                                     </div>
-                                    <div class="d-none d-lg-block col-lg-4">
+                                    <div class="d-xs-block d-lg-block col-lg-4">
                                             <img src="assets/images/renovationInt.jpg" alt="renovation" height="300" width="300">
                                         </div>
                                     </div>
@@ -444,12 +462,8 @@
 
                     
                     <div class="row competences" id="extension">
-                        <div class="d-none d-lg-block col-lg-4">
-                                <img src="assets/images/extension.jpg" alt="extension" height="300" width="300">
-                            </div>
                         <div class="col-xs-12 col-lg-8">
                                 <p class="titleCompetence"> Extension</p> 
-                           
                             <hr>
 
                            <p class="textPrincipal extension"> 
@@ -459,6 +473,10 @@
                             </p>
                             
                         </div>
+
+                        <div class="d-xs-block d-lg-block col-lg-4">
+                                <img src="assets/images/extension.jpg" alt="extension" height="300" width="300">
+                            </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12">
@@ -494,7 +512,7 @@
                             Vous souhaitez r&eacute;duire vos factures de chauffage et/ou de climatisation et am&eacute;liorer votre confort &#x3F;</p>
 
                     </div>
-                    <div class="d-none d-lg-block col-lg-4">
+                    <div class="d-xs-block d-lg-block col-lg-4">
                             <img src="assets/images/isolation.jpg" alt="isolation" height="300" width="300">
                         </div>
                     </div>
@@ -506,8 +524,7 @@
                                 L&apos;isolation est &eacute;galement b&eacute;n&eacute;fique pour l&apos;environnement car, en r&eacute;duisant les consommations, 
                                 elle permet de pr&eacute;server les ressources &eacute;nerg&eacute;tiques et de limiter les &eacute;missions de gaz &agrave;
                                  effet de serre.
-                                
-                                L&apos;isolation est la cl&eacute; du confort thermique et des &eacute;conomies.
+                                <b>L&apos;isolation est la cl&eacute; du confort thermique et des &eacute;conomies.</b>
                                 
                                 Selon l&apos;Ademe (Agence de l&apos;environnement et de la ma&icirc;trise de l&apos;&eacute;nergie), la chaleur s&apos;&eacute;chappe d&apos;une maison mal isol&eacute;e 
                                 &agrave; 30% par les combles et la toiture (c&apos;est donc la priorit&eacute; en termes d&apos;isolation), 
@@ -557,8 +574,6 @@
 
 
                                    -->
-
-<div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel"> 
   
   <!--Carousel Wrapper-->
 
@@ -788,24 +803,23 @@
                     <div class="form-row">
                       <div class="form-group col-sm-12 col-md-6">
                      
-                        <input type="text" name="nom" class="form-control" id="nom" placeholder="Nom" required>
+                        <input type="text" name="nom" class="form-control" id="nom" placeholder="Nom *" required>
                       </div>
                       <div class="form-group col-sm-12 col-md-6">
                    
-                        <input type="text" name="prenom" class="form-control" id="prenom" placeholder="Pr&eacute;nom" required>
+                        <input type="text" name="prenom" class="form-control" id="prenom" placeholder="Pr&eacute;nom *" required>
                       </div>
                     </div>
                     <div class="form-row">
                             <div class="form-group col-sm-12 col-md-6">
                             
-                              <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                              <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Email *" required>
                             </div>
                             <div class="form-group col-sm-12 col-md-6">
                               
-                              <input type="text" name="telephone" class="form-control" id="telephone" placeholder="Num&eacute;ro de T&eacute;l&eacute;phone" required>
+                              <input type="text" name="telephone" class="form-control" id="telephone" placeholder="Num&eacute;ro de T&eacute;l&eacute;phone *" required>
                             </div>
                           </div>
-
                     <div class="form-row">
                       <div class="form-group col-sm-12">
                          
@@ -815,15 +829,13 @@
 
                       <div class="form-group col-sm-12">
                       
-                        <input type="text" name="objetmessage" class="form-control" id="objet" placeholder="Objet de votre message" required>
+                        <input type="text" name="objetmessage" class="form-control" id="objet" placeholder="Objet de votre message *" required>
                       </div>
                       
                       <div class="form-group col-md-12">
-                        <textarea type="text" name="message" class="form-control" id="textArea" placeholder="Votre Message" required></textarea>
+                        <textarea type="text" name="message" class="form-control" id="textArea" placeholder="Votre Message *" required></textarea>
                       </div>
-
-                      <input id="website" name="website" type="text" value="website"/>
-                   
+                   <p> * :Champs à remplir obligatoirement</p>
                       <div class="g-recaptcha" data-sitekey="6LdCFaYUAAAAAJUO0UpV5p9TDrTsTZVVVCUn1a3W"></div>
                   
                     </div>
