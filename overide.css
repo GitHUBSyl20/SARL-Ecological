@@ -12,13 +12,18 @@ main {
   margin: 0 auto;
   background-color: white;
 }
-.container-fluid-fluid{
-  margin: 0 auto; 
-  
+.container-fluid{
+  margin: 0 auto;
+  text-align: center 
+}
+
+/*To make the elements of the nav bar in no wrapping( same line) */
+.navbar > .container, .navbar > .container-fluid{
+  flex-wrap: nowrap !important;
 }
 
 .navbar.center, .navbar-expand-lg {
-  background-color: rgba(209, 205, 205, 0.876);
+  background-color: white;
   text-align: left;
   margin-bottom: 0 !important; 
 }
@@ -91,7 +96,7 @@ hr .thin{
 }
 
 img{ 
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
 }
 
@@ -188,7 +193,7 @@ background-size: cover;
                                                             */
 .parallax img{
     display: block;
-    padding-top: 16rem;   
+    padding-top: 0rem;   
     margin-left: auto;
     margin-right: auto; 
 }
@@ -204,7 +209,19 @@ background-size: cover;
   padding-right: 10rem;
   color:  rgb(255, 255, 255);
   font-size: 2.5rem;
- text-shadow: 2px 2px 5px rgb(100, 98, 98);
+  text-shadow: 2px 2px 5px rgb(100, 98, 98);
+}
+
+.contientLogoPremier img{
+  width:30%; 
+  height: auto;
+}
+
+.ecologicalTextLogo{
+  padding-top: 10px;
+  text-align: center;
+  color: #007AC1;
+  font-size:6rem; 
 }
 
 .bienvenu h3 {
@@ -323,6 +340,7 @@ ul li {
     padding: 1rem 2rem;
 }
 
+
 .textCalcaireGauche{
     padding: 3rem 2rem;
 }
@@ -335,6 +353,7 @@ ul li {
    padding-top: 8rem;
    padding-right: 8rem;
 }
+
                                                                 /*
                                                                 
                                                                 
@@ -397,7 +416,7 @@ ul li {
 
 .imageQui{
    width: 70%; 
-   height: auto; 
+   height: auto;
 }
 
 .texteQui{
@@ -431,10 +450,12 @@ section .adresse{
 }
 
 .contientLogoLocal {
-  padding-top: 5rem; 
+  padding-top: 1rem; 
   width: 90%;
   height: auto;
 }
+
+
 
 #map {
   margin: 0rem auto; 
@@ -443,7 +464,12 @@ section .adresse{
 .coordonnees{
     margin-top: 6rem; 
     font-size: 2.0rem;
-    margin-bottom:0rem;   
+    margin-bottom:0rem;
+    text-align: center;    
+}
+.mapLogoText{
+  font-Size: 2.4rem;
+  font-weight: bold; 
 }
 
 .fas{
@@ -454,13 +480,15 @@ section .adresse{
 
 .logoSARL{
     margin-left: 2rem;
-    width: 40%; 
+    width: 50%; 
 }
 
 .localSarl img{
   width: 50%; 
   height:auto; 
 }
+
+
 
 
 /* 
@@ -515,28 +543,6 @@ form {
   color: black;
   font-size: 2rem; 
 }
-
-/* 
-.confirmationBox{
-    display: none; 
-    background-color: #A5D70A;
-    color: #000000;
-    border: 1px solid black;
-    position: fixed;
-    width: 500px;
-    height: 80px;
-    left: 40%;
-    top: 40%;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 1.4rem;
-    border-radius:4px;  
- }
-
-.visible{
- display: block;
- }
- */
 
 
 .facebookCall{
@@ -594,12 +600,9 @@ html, body {
   display:inline;
 }
 
-.hiddenOnDesk p{
+.hiddenOnDesk img{
   display:inline;
-  margin: 0 10rem;
-  font-size: 1.5rem;
-  font-weight: bold; 
-  color: black; 
+  margin: 0 1rem; 
 }
 
 img{
@@ -610,6 +613,9 @@ img{
   width: 40%;
 }
 
+.ecologicalTextLogo{
+  font-size:3rem; 
+}
 .coordonnees br{
   display: none; 
 }
