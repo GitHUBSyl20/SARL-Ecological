@@ -22,6 +22,11 @@ main {
   flex-wrap: nowrap !important;
 }
 
+.container-fluid>.navbar-header{
+  margin-left: 0px !important;
+  margin-right: 0px !important
+}
+
 .navbar.center, .navbar-expand-lg {
   background-color: white;
   text-align: left;
@@ -544,6 +549,9 @@ form {
   font-size: 2rem; 
 }
 
+p, .obligatoire{
+  font-size: 20px;
+}
 
 .facebookCall{
   font: 5rem; 
@@ -598,11 +606,18 @@ html, body {
 
 .hiddenOnDesk{
   display:inline;
+  text-align: center;
+  margin-top: 1rem; 
 }
 
 .hiddenOnDesk img{
   display:inline;
-  margin: 0 1rem; 
+  margin:0 2rem; 
+}
+
+.hiddenOnDesk a{
+  margin-left: 5rem;
+  margin-right:-3rem; 
 }
 
 img{
@@ -764,7 +779,11 @@ hr{
   margin-top: -5rem; 
   font-size: 2.0rem;
   margin-bottom:2rem;      
-}  
+} 
+
+.coordonees,.fas{
+  display: block;
+}
 
 .logoSARL{
  margin-left: auto; 
@@ -772,6 +791,9 @@ hr{
   width: 50%; 
 }
 
+form {
+  padding: 2rem 0rem; 
+}
 
 .carousel-inner{
   margin: -1.5rem auto; 
