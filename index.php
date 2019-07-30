@@ -23,11 +23,11 @@
 
 
 </head>
-
+<div id="ancreTop"></div>
 <body>
     <main>
 <nav class="navbar navbar-expand-lg navbar">
-    <div class="container-fluid">
+    <div class="row justify-content-center">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
@@ -60,11 +60,21 @@
           <li class="nav-item">
               <a class="js-scrollTo" href="#ancreDevis" class="nav-link">Demande de Devis</a>
           </li>
+          <li class="nav-item">
+            <a href="https&#58;//www.facebook.com/Ecological-387216698516848/" target="_blank">
+
+                    <svg width="45" height="50" viewBox="0 600 1792 1000" xmlns="http&#58;//www.w3.org/2000/svg"
+                        fill="currentColor">
+                        <path
+                            d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z">
+                        </path>
+                    </svg>
+            </a>
+          </li>
         </ul>   
       </div>
 
       <div class="hiddenOnDesk">
-         
             <img src="assets/images/imagesMobile/logoMobile.png" alt="ecological logo mobile">
         
             <a href="https&#58;//www.facebook.com/Ecological-387216698516848/" target="_blank">
@@ -86,8 +96,7 @@
                 <div class="bienvenu">
 
                  <div class="contientLogoPremier">
-                        <img src="assets/images/logo.png" alt="logoECOLOGICAL">
-                        <h1 class="ecologicalTextLogo">ECOLOGICAL</h1>
+                        <img src="assets/images/ECOLOGICAL_LOGO_VERTICALE.png" alt="logoECOLOGICAL">
                     </div>
 
             <p>Cr&eacute;&eacute;e depuis 2015 la soci&eacute;t&eacute; ECOLOGICAL s&apos;est fait
@@ -759,7 +768,7 @@
                         
                     <br>
                     <br>
-                    <p class="mapLogoText">SARL-ECOLOGICAL</p>
+               
                   
                     <i class="fas fa-map-marker-alt"></i> <span></span>
                     93 Rue du Docteur Jenner<br>
@@ -841,7 +850,7 @@
                       <div class="form-group col-md-12">
                         <textarea type="text" name="message" class="form-control" id="textArea" placeholder="Votre Message *" required></textarea>
                       </div>
-                   <p class="obligatoire"> * :Champs à remplir obligatoirement</p>
+                   <p> * :Champs à remplir obligatoirement</p>
                       <div class="g-recaptcha" data-sitekey="6LdCFaYUAAAAAJUO0UpV5p9TDrTsTZVVVCUn1a3W"></div>
                   
                     </div>
@@ -869,11 +878,11 @@
 					</a>
 			</div>
 		</div>
-</section>     
-    
+</section>
 
-
-  
+<button type="submit" class="btn btn-lg" name="envoi">
+    <a class="BackToTop" href="#ancreTop" class="nav-link">Retour haut de page</a>
+</button>
        
         <!--Defilement tranquille à partir des onglets-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

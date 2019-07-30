@@ -12,10 +12,6 @@ main {
   margin: 0 auto;
   background-color: white;
 }
-.container-fluid{
-  margin: 0 auto;
-  text-align: center 
-}
 
 /*To make the elements of the nav bar in no wrapping( same line) */
 .navbar > .container, .navbar > .container-fluid{
@@ -24,7 +20,8 @@ main {
 
 .container-fluid>.navbar-header{
   margin-left: 0px !important;
-  margin-right: 0px !important
+  margin-right: 0px !important;
+  display: inline; 
 }
 
 .navbar.center, .navbar-expand-lg {
@@ -36,6 +33,9 @@ main {
 .navbar-toggle{
   padding: 0 0 !important;
   margin-bottom: 0;
+  float:left!important;
+  margin-right: 20px!important;
+  margin-top: 15px !important;
 }
 
 .navbar.center .navbar-inner {
@@ -218,7 +218,8 @@ background-size: cover;
 }
 
 .contientLogoPremier img{
-  width:30%; 
+  padding-right: 2.5rem;
+  width:60%; 
   height: auto;
 }
 
@@ -283,7 +284,6 @@ background-size: cover;
                                                       */
 .row {
   text-align: justify;
-  padding: 0.5rem 3rem; 
 }
 
 .engagements{
@@ -342,7 +342,7 @@ ul li {
 .texteDetails{
     text-align:justify;
     font-size: 2.0rem;  
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
 }
 
 
@@ -558,7 +558,20 @@ p, .obligatoire{
   color: black; 
 }
 
-                                    /*  MEDIA QUERIES */
+.BackToTop{
+  color: white
+}
+
+                                                                                   /*  MEDIA QUERIES 
+                                                                                   
+                                                                                   *****
+                                                                                   ******
+                                                                                   ******
+                                                                                   *****
+                                                                                   *****
+                                                                          
+                                                                                   
+                                                                                   */
 @media only screen and (min-width: 768px) and (max-width: 960px){
 
 .logoSARL{ 
@@ -571,9 +584,7 @@ p, .obligatoire{
   width:45rem;
   height:40rem;
 }
-
 }
-
 
 
 @media only screen and (max-width: 860px) {
@@ -581,7 +592,6 @@ p, .obligatoire{
 body{
     width: 840px;
 }
-
 
 .carousel-inner{
   margin: 0 auto; 
@@ -594,19 +604,25 @@ body{
   /* For mobile phones: */
 
 html, body {
-    width: 100%;  
+  width: 100%;  
 }
 
 .parallax{
   min-height: 200px;
 }
+
 .parallax img{
   padding-top: 5rem; 
 }
 
+.navbar-header{
+  display: inline;
+  margin-left: 20px
+}
+
 .hiddenOnDesk{
   display:inline;
-  text-align: center;
+  text-align: left;
   margin-top: 1rem; 
 }
 
@@ -616,8 +632,8 @@ html, body {
 }
 
 .hiddenOnDesk a{
-  margin-left: 5rem;
-  margin-right:-3rem; 
+  margin-left: 3rem;
+  margin-right:-4rem; 
 }
 
 img{
@@ -740,7 +756,7 @@ hr{
 } 
 
 #implantation{
-    padding: 0 0rem; 
+    padding: 0 2rem; 
     font-size: 2.0rem;
     font-weight:bold; 
 }
@@ -749,12 +765,17 @@ hr{
   margin-left: 0rem;
   text-align: center; 
   font-size: 2.0rem;
+  padding: 0 4rem; 
+}
+
+.missionDetails ul li{
+
 }
 
 .textPrincipal {
   text-align: center;
   font-size: 2.0rem;
-  padding: 0rem 0em;
+  padding: 0rem 2rem;
 }
 
 .texteDetails{
@@ -762,23 +783,28 @@ hr{
   font-size: 2.0rem;  
   padding-top: 1rem;
   padding-bottom: 0rem;
-  padding-left:0; 
-  padding-right:0; 
+  padding: 0rem 3rem;
+}
+
+.texteDetails ul li{
+ 
+  padding: 0rem 2rem;
 }
 
 .texteDetails2{
   text-align:justify;
   padding-top: 1rem;
   padding-bottom: 0rem;
-  padding-left:0; 
-  padding-right:0; 
+  padding-left:2rem; 
+  padding-right:2rem; 
   font-size: 2.0rem;    
 }
 
 .coordonnees{
   margin-top: -5rem; 
   font-size: 2.0rem;
-  margin-bottom:2rem;      
+  margin-bottom:2rem;
+  padding: 0 2rem;     
 } 
 
 .coordonees,.fas{
